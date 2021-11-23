@@ -1,12 +1,9 @@
 #opencv_python==4.1.2.30
--f https://download.pytorch.org/whl/torch_stable.html
 opencv-python-headless==4.2.0.32
 Flask==1.0.3
 Werkzeug==0.15.5
 matplotlib==3.2.1
-#torch==1.10.0
-torch==1.8.0
-torchvision==0.9.1
+torch==1.10.0
 numpy==1.19.5
 Flask_Cors==3.0.10
 click==7.1.2
