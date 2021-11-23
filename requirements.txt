@@ -6,3 +6,4 @@ Flask_Cors==3.0.10
 matplotlib==3.2.1
 torchvision==0.3.0
 https://download.pytorch.org/whl/cpu/torch-1.0.0-cp37-cp37m-linux_x86_64.whl
+gunicorn==19.9.0
