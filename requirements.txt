@@ -4,6 +4,6 @@ numpy==1.15.0
 opencv-python-headless==4.2.0.32
 Flask_Cors==3.0.10
 matplotlib==3.2.1
-torchvision==0.1.6
-Pytorch==0.1.2
+torchvision==0.2.1
+https://download.pytorch.org/whl/cpu/torch-0.4.1.post2-cp37-cp37m-linux_x86_64.whl
 gunicorn==19.9.0
