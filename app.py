@@ -22,14 +22,16 @@ def upload_image():
         pass
 
     file = request.files['file']
+    #print(type(file))
     if not file:
         return {'error': 'Missing file'}, 400
     
     now = datetime.now()
     filename = now.strftime("%Y%m%d_%H%M%S") + "_" + str(randint(000, 999))
     file.save(os.path.join(uploads_dir, secure_filename(filename + '.jpg')))
+    #print(type(file))
     objects_count, objects_confidence = process(uploads_dir, output_dir, filename)
-    
+    print(uploads_dir)
     response = {
         'objects_count': objects_count, 
         'objects_confidence': objects_confidence, 
